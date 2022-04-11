@@ -1,0 +1,42 @@
+#Title {
+  text-align: center;
+  font-size: 50px;
+  font-style: ;
+}
+
+body {
+  background-image: url(./background.jpg);
+  background-size: cover;
+  color: antiquewhite;
+}
+
+.Name {
+  font-size: 20px;
+}
+form {
+  width: 50%;
+  /* height: 50px; */
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  resize: none;
+}
+input {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 50px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 20px 0;
+  box-sizing: border-box;
+}
+button {
+  margin-inline: auto;
+  display: block;
+  font-size: 20px;
+  width: 100px;
+  padding: 20px;
+  color: antiquewhite;
+}

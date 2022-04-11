@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Page</title>
+    <link rel="stylesheet" href="./contact.css">
   </head>
   <body>
-<h1>Contact Me For More Info</h1>
+<h1 id="Title">Contact Me For More Info</h1>
 
 <form
   action="https://formspree.io/f/xvolwzda"
   method="POST"
 
-  <label>
-    Your Name:
-    <input type="text" name="Name">
+  <label class="Name">
+    Your Name and Surname:
+    <input type="text" name="Name" class="Name">
   </label>
 
     <label>
@@ -38,7 +39,7 @@
   <input type="time" name="Time">
   </label>
 
-  <button type="submit">submit</button>
+  <button type="submit" id="Submit">Submit</button>
 </form>
 
     <a href="./index.html">Home Page</a>
